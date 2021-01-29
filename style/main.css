@@ -11,7 +11,7 @@
 
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -44,7 +44,7 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/netflix/img/capa.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa.jpg');
 
     height: 400px;
     background-size: cover;
@@ -58,7 +58,6 @@ header nav a:hover{
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
-
 }
 
 .titulo{
@@ -67,21 +66,46 @@ header nav a:hover{
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
+
 .botao{
     background-color: rgba(0,0,0,.50);
     border: none;
     color: white;
 
-    padding: 15px 30px;
-    margin-right: 15px;
+    padding: 15px;
     font-size: 12px;
 
     cursor: pointer;
-    transition: .3s ease all;
-
+    transition: .2s ease all;
 }
 
 .botao:hover{
     background-color: white;
     color: black;
+}
+
+
+.botao i{
+    margin: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }

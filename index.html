@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
     <title>NETFLIX CLONE</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo"> NETFLIX</h2>
+            <h2 class="logo">NETFLIX</h2>
             <nav>
                 <a href="#">Inicio</a>
                 <a href="#">Séries</a>
@@ -22,19 +30,72 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">HARRY POTTER E O CÁLICE DE FOGO</h3>
+                <h3 class="titulo">HARRY POTTER</h3>
                 <p class="descricao">Harry Potter é misteriosamente selecionado para participar do Torneio Tribruxo, uma competição internacional em que precisará enfrentar alunos mais velhos e experientes de Hogwarts e também de outras escolas de magia.</p>
                 <div class="botoes">
                     <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>
                     <button role="button" class="botao">
-                         MAIS INFORMAÇÕES
-                     </button>
-                </div> 
-            </div>                  
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
         </div>
     </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                <img class="box-filme" src="img/bloo.jpg" alt="Black" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/black.jpg" alt="Black" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/code.jpg" alt="Black" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/fate.jpg" alt="Black" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/god.jpg" alt="Black" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/heros.jpg" alt="Black" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/john.jpg" alt="Black" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/lupi.jpg" alt="Black" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/maravilha.jpg" alt="Black" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/resgate.jpg" alt="Black" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/trono.jpg" alt="Black" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/vampi.jpg" alt="Black" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/zona.jpg" alt="Black" srcset="">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    
 
 </body>
 </html>
